@@ -65,17 +65,22 @@ function App() {
 
         <section className="content-section" id="skills">
           <p className="section-label">02 / SKILLS</p>
-          <h2>Tools I work with.</h2>
-          <div className="skill-list">
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>HTML & CSS</span>
-            <span>Node.js</span>
-            <span>Express</span>
-            <span>MongoDB</span>
-            <span>SQL</span>
-            <span>Java</span>
-          </div>
+          <h2>Tools I work with.</h2>    
+<div className="skill-list">
+  <span>JavaScript</span>
+  <span>TypeScript</span>
+  <span>Python</span>
+  <span>Kotlin</span>
+  <span>React</span>
+  <span>HTML & CSS</span>
+  <span>Node.js</span>
+  <span>Express</span>
+  <span>MongoDB</span>
+  <span>SQL</span>
+  <span>Java</span>
+  <span>PostgreSQL</span>
+</div>
+
         </section>
 
         <section className="content-section" id="projects">
@@ -109,17 +114,58 @@ function App() {
           </div>
         </section>
 
-        <section className="content-section" id="contact">
-          <p className="section-label">04 / CONTACT</p>
-          <h2>Let's build something useful.</h2>
-          <p>
-            I'm interested in software engineering opportunities, meaningful
-            projects, and connecting with people who build technology.
-          </p>
-          <a className="primary-button" href="mailto:YOUR_EMAIL@example.com">
-            Email me <span aria-hidden="true">↗</span>
-          </a>
-        </section>
+      <section className="content-section" id="contact">
+  <p className="section-label">04 / CONTACT</p>
+  <h2>Let's build something useful.</h2>
+  <p>
+    I'm interested in software engineering opportunities, meaningful
+    projects, and connecting with people who build technology.
+  </p>
+
+  <div className="contact-links">
+    <a
+      className="primary-button"
+      href="mailto:mehretaraya499@gmail.com"
+    >
+      Email me ↗
+    </a>
+
+    <a
+      href="https://github.com/Mehret-araya"
+      target="_blank"
+      rel="noreferrer"
+    >
+      GitHub ↗
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/mehret-araya"
+      target="_blank"
+      rel="noreferrer"
+    >
+      LinkedIn ↗
+    </a>
+
+    <a
+      href="https://www.instagram.com/mehret.ar/"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Instagram ↗
+    </a>
+
+    <a
+      href="https://x.com/mehret_ara68441"
+      target="_blank"
+      rel="noreferrer"
+    >
+      X (Twitter) ↗
+    </a>
+  </div>
+</section>
+
+
+
       </main>
 
       <footer className="site-footer">

@@ -236,6 +236,40 @@
   margin-top: 28px;
 }
 
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.contact-links a {
+  color: #b0bbb3;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-links a:hover {
+  color: #70e0a0;
+  transform: translateY(-2px);
+}
+
+.contact-links a:focus-visible {
+  outline: 2px solid #70e0a0;
+  outline-offset: 5px;
+}
+
+#contact .contact-links .primary-button {
+  margin-top: 0;
+}
+
+@media (max-width: 480px) {
+  .contact-links {
+    gap: 18px;
+  }
+}
+
 .site-footer {
   width: min(1120px, calc(100% - 48px));
   margin: 0 auto;

@@ -52,17 +52,19 @@ function App() {
           </p>
         </section>
 
+
         <section className="content-section" id="about">
           <p className="section-label">01 / ABOUT</p>
           <h2>Engineering with purpose.</h2>
           <p>
-            I enjoy turning ideas into practical software, learning how systems
-            work, and creating experiences that are useful to real people.
-            My interests include frontend engineering, backend development,
-            and applied AI.
+            I'm a third-year Software Engineering student at Addis Ababa
+            University who enjoys building practical software to solve
+            real-world problems. My interests include frontend engineering,
+            backend systems, and applied AI. Through projects such as AI
+            Farmer Assistant and AI Resume & Interview Coach, I'm developing
+            my skills by turning ideas into useful digital products.
           </p>
         </section>
-
         <section className="content-section" id="skills">
           <p className="section-label">02 / SKILLS</p>
           <h2>Tools I work with.</h2>    

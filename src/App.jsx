@@ -67,7 +67,7 @@ function App() {
         </section>
         <section className="content-section" id="skills">
           <p className="section-label">02 / SKILLS</p>
-          <h2>Tools I work with.</h2>    
+          <h2>Tools I work with.</h2>
 <div className="skill-list">
   <span>JavaScript</span>
   <span>TypeScript</span>
@@ -92,7 +92,15 @@ function App() {
           <div className="project-list">
             <article className="project-card">
               <p className="project-number">PROJECT 01</p>
-              <h3>AI Farmer Assistant</h3>
+              <h3>
+                <a
+                  href="https://github.com/Mehret-araya/AI-farmer-assistant"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  AI Farmer Assistant ↗
+                </a>
+              </h3>
               <p>
                 An agriculture-focused application designed to help farmers
                 access crop information and AI-assisted guidance.
@@ -104,7 +112,15 @@ function App() {
 
             <article className="project-card">
               <p className="project-number">PROJECT 02</p>
-              <h3>AI Resume & Interview Coach</h3>
+              <h3>
+                <a
+                  href="https://github.com/Mehret-araya/ai-resume-interview-coach"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  AI Resume &amp; Interview Coach ↗
+                </a>
+              </h3>
               <p>
                 An application in development for resume analysis, resume
                 improvement, and interview preparation.

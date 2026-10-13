@@ -1,3 +1,4 @@
+
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
           <a href="#contact">Contact</a>
         </nav>
 
@@ -52,7 +54,6 @@ function App() {
           </p>
         </section>
 
-
         <section className="content-section" id="about">
           <p className="section-label">01 / ABOUT</p>
           <h2>Engineering with purpose.</h2>
@@ -61,28 +62,29 @@ function App() {
             University who enjoys building practical software to solve
             real-world problems. My interests include frontend engineering,
             backend systems, and applied AI. Through projects such as AI
-            Farmer Assistant and AI Resume & Interview Coach, I'm developing
-            my skills by turning ideas into useful digital products.
+            Farmer Assistant and AI Resume &amp; Interview Coach, I'm
+            developing my skills by turning ideas into useful digital products.
           </p>
         </section>
+
         <section className="content-section" id="skills">
           <p className="section-label">02 / SKILLS</p>
           <h2>Tools I work with.</h2>
-<div className="skill-list">
-  <span>JavaScript</span>
-  <span>TypeScript</span>
-  <span>Python</span>
-  <span>Kotlin</span>
-  <span>React</span>
-  <span>HTML & CSS</span>
-  <span>Node.js</span>
-  <span>Express</span>
-  <span>MongoDB</span>
-  <span>SQL</span>
-  <span>Java</span>
-  <span>PostgreSQL</span>
-</div>
 
+          <div className="skill-list">
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>Python</span>
+            <span>Kotlin</span>
+            <span>React</span>
+            <span>HTML &amp; CSS</span>
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+            <span>SQL</span>
+            <span>Java</span>
+            <span>PostgreSQL</span>
+          </div>
         </section>
 
         <section className="content-section" id="projects">
@@ -132,58 +134,91 @@ function App() {
           </div>
         </section>
 
-      <section className="content-section" id="contact">
-  <p className="section-label">04 / CONTACT</p>
-  <h2>Let's build something useful.</h2>
-  <p>
-    I'm interested in software engineering opportunities, meaningful
-    projects, and connecting with people who build technology.
-  </p>
+        <section className="content-section" id="experience">
+          <p className="section-label">04 / EXPERIENCE</p>
+          <h2>Learning by building and contributing.</h2>
 
-  <div className="contact-links">
-    <a
-      className="primary-button"
-      href="mailto:mehretaraya499@gmail.com"
-    >
-      Email me ↗
-    </a>
+          <div className="project-list">
+            <article className="project-card">
+              <p className="project-number">EDUCATION</p>
+              <h3>Software Engineering Student</h3>
+              <p>Addis Ababa University</p>
+              <p>
+                Currently in my third year, developing my software
+                engineering skills through coursework and practical projects.
+              </p>
+            </article>
 
-    <a
-      href="https://github.com/Mehret-araya"
-      target="_blank"
-      rel="noreferrer"
-    >
-      GitHub ↗
-    </a>
+            <article className="project-card">
+              <p className="project-number">INTERNSHIP</p>
+              <h3>Web Development Intern</h3>
+              <p>SyntecxHub</p>
+              <p>
+                Gained practical web development experience by working
+                on development projects during my internship.
+              </p>
+            </article>
 
-    <a
-      href="https://www.linkedin.com/in/mehret-araya"
-      target="_blank"
-      rel="noreferrer"
-    >
-      LinkedIn ↗
-    </a>
+            <article className="project-card">
+              <p className="project-number">VOLUNTEERING</p>
+              <h3>Volunteer Teacher</h3>
+              <p>
+                Contributed six months of volunteer teaching to support
+                children's learning.
+              </p>
+            </article>
+          </div>
+        </section>
 
-    <a
-      href="https://www.instagram.com/mehret.ar/"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Instagram ↗
-    </a>
+        <section className="content-section" id="contact">
+          <p className="section-label">05 / CONTACT</p>
+          <h2>Let's build something useful.</h2>
+          <p>
+            I'm interested in software engineering opportunities, meaningful
+            projects, and connecting with people who build technology.
+          </p>
 
-    <a
-      href="https://x.com/mehret_ara68441"
-      target="_blank"
-      rel="noreferrer"
-    >
-      X (Twitter) ↗
-    </a>
-  </div>
-</section>
+          <div className="contact-links">
+            <a
+              className="primary-button"
+              href="mailto:mehretaraya499@gmail.com"
+            >
+              Email me ↗
+            </a>
 
+            <a
+              href="https://github.com/Mehret-araya"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub ↗
+            </a>
 
+            <a
+              href="https://www.linkedin.com/in/mehret-araya"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn ↗
+            </a>
 
+            <a
+              href="https://www.instagram.com/mehret.ar/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram ↗
+            </a>
+
+            <a
+              href="https://x.com/mehret_ara68441"
+              target="_blank"
+              rel="noreferrer"
+            >
+              X (Twitter) ↗
+            </a>
+          </div>
+        </section>
       </main>
 
       <footer className="site-footer">
